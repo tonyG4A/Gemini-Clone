@@ -3,12 +3,12 @@ import './Sidebar.css'
 import { assets } from '../../assets/assets'
 const Sidebar = () => {
      
-    const [extended,setextend] = useState(false)
+    const [extended,setExtended] = useState(false)
 
   return (
     <div className='sidebar'>
       <div className='top'>
-      <img className='menu' src={assets.menu_icon} alt="" />
+      <img onClick={()=>setExtended(prev=>!prev)} className='menu' src={assets.menu_icon} alt="" />
       <div className='new-chat'>
         <img src={assets.plus_icon} alt="" />
         {extended?<p>New Chat</p>:null}
