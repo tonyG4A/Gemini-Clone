@@ -23,3 +23,18 @@
     width: 900px;
     margin: auto;
 }
+
+.main .great{
+    margin: 50px 0px;
+    font-size: 56px;
+    color: #c4c7c5;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.main .great span{
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
